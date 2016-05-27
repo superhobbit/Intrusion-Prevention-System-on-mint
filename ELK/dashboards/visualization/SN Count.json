@@ -1,0 +1,11 @@
+{
+  "title": "SN Count",
+  "visState": "{\"title\":\"SN Count\",\"type\":\"metric\",\"params\":{\"fontSize\":\"22\"},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+  "uiStateJSON": "{}",
+  "description": "",
+  "savedSearchId": "Suricata-events",
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

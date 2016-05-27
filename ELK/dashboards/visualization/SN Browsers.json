@@ -1,0 +1,11 @@
+{
+  "title": "SN Browsers",
+  "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"id\":\"3\",\"params\":{\"field\":\"http.user_agent.os_name.raw\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"},{\"id\":\"2\",\"params\":{\"field\":\"http.user_agent.name.raw\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"},{\"id\":\"4\",\"params\":{\"field\":\"http.user_agent.major.raw\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"shareYAxis\":true},\"title\":\"SN Browsers\",\"type\":\"pie\"}",
+  "uiStateJSON": "{}",
+  "description": "",
+  "savedSearchId": "Suricata-events",
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}
