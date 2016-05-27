@@ -1,0 +1,15 @@
+{
+  "title": "SN STATS",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[{\"col\":1,\"id\":\"SN Stats-CapturedPktsVsGaps\",\"panelIndex\":1,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"SN Stats-DecoderAvgMaxPktSize\",\"panelIndex\":3,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"SN Stats-DecoderBytes-Packets\",\"panelIndex\":4,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"SN Stats-DecoderProto-Deltas\",\"panelIndex\":5,\"row\":13,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"SN Stats-EmergencyMode\",\"panelIndex\":6,\"row\":17,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"SN Stats-Frags\",\"panelIndex\":7,\"row\":20,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"SN Stats-Frags-Deltas\",\"panelIndex\":8,\"row\":20,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"SN Stats-KernelPacketsAndDrops-Deltas\",\"panelIndex\":9,\"row\":1,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"SN Stats-Memcap-Deltas\",\"panelIndex\":10,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"SN Stats-TotalKernelPackets\",\"panelIndex\":11,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"SN Stats-ipv4-ipv6-fragments\",\"panelIndex\":12,\"row\":17,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"SN Stats-memuse-Deltas\",\"panelIndex\":13,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"id\":\"SN STATS-EventsList\",\"type\":\"search\",\"panelIndex\":14,\"size_x\":12,\"size_y\":7,\"col\":1,\"row\":23,\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+  "optionsJSON": "{\"darkTheme\":true}",
+  "uiStateJSON": "{\"P-9\":{\"vis\":{\"colors\":{\"kernel drops: Sum of stats.capture.kernel_drops_delta\":\"#BF1B00\",\"kernel drops: Sum of stats.capture.kernel_packets_delta\":\"#508642\",\"Sum of stats.capture.kernel_packets_delta\":\"#1F78C1\",\"Sum of stats.capture.kernel_drops_delta\":\"#BF1B00\"}}}}",
+  "version": 1,
+  "timeRestore": true,
+  "timeTo": "now",
+  "timeFrom": "now-24h",
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}

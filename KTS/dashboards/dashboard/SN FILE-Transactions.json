@@ -1,0 +1,15 @@
+{
+  "title": "SN FILE-Transactions",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[{\"id\":\"SN FILE-ByGeoCityByType\",\"type\":\"visualization\",\"panelIndex\":1,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":7},{\"id\":\"SN FILE-ByProtoByHostnameServed\",\"type\":\"visualization\",\"panelIndex\":2,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":19},{\"id\":\"SN FILE-ByTypeOverTime\",\"type\":\"visualization\",\"panelIndex\":3,\"size_x\":12,\"size_y\":4,\"col\":1,\"row\":27},{\"id\":\"SN FILE-EventsOverTime\",\"type\":\"visualization\",\"panelIndex\":4,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":7},{\"id\":\"SN FILE-FileSizeByExtention\",\"type\":\"visualization\",\"panelIndex\":5,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":23},{\"id\":\"SN FILE-GeoIP\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":12,\"size_y\":6,\"col\":1,\"row\":1},{\"id\":\"SN FILE-GeoIPPDFAndExecutables\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":12,\"size_y\":8,\"col\":1,\"row\":11},{\"id\":\"SN FILE-Top20DestIP\",\"type\":\"visualization\",\"panelIndex\":8,\"size_x\":3,\"size_y\":4,\"col\":4,\"row\":23},{\"id\":\"SN FILE-Top20DestPort\",\"type\":\"visualization\",\"panelIndex\":9,\"size_x\":3,\"size_y\":4,\"col\":10,\"row\":19},{\"id\":\"SN FILE-Top20SrcIP\",\"type\":\"visualization\",\"panelIndex\":10,\"size_x\":3,\"size_y\":4,\"col\":1,\"row\":23},{\"id\":\"SN FILE-Top20SrcPort\",\"type\":\"visualization\",\"panelIndex\":11,\"size_x\":3,\"size_y\":4,\"col\":7,\"row\":19},{\"id\":\"SN FILE-EventsList\",\"type\":\"search\",\"panelIndex\":12,\"size_x\":12,\"size_y\":6,\"col\":1,\"row\":31,\"columns\":[\"event_type\",\"src_ip\",\"src_port\",\"proto\",\"dest_ip\",\"dest_port\",\"fileinfo.type\",\"fileinfo.size\",\"fileinfo.filename\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+  "optionsJSON": "{\"darkTheme\":false}",
+  "uiStateJSON": "{\"P-4\":{\"vis\":{\"legendOpen\":false}}}",
+  "version": 1,
+  "timeRestore": true,
+  "timeTo": "now",
+  "timeFrom": "now-24h",
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+  }
+}

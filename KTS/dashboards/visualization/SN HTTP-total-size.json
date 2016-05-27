@@ -1,0 +1,10 @@
+{
+  "title": "SN HTTP total size",
+  "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{\"field\":\"http.length\"},\"schema\":\"metric\",\"type\":\"sum\"}],\"listeners\":{},\"params\":{\"fontSize\":\"30\"},\"type\":\"metric\"}",
+  "uiStateJSON": "{}",
+  "description": "",
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"logstash-http-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "SN VLAN",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[{\"id\":\"SN Alert-ByVLANID\",\"type\":\"visualization\",\"panelIndex\":1,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":1},{\"id\":\"SN Alert-ByVLANIDTop20\",\"type\":\"visualization\",\"panelIndex\":2,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":9},{\"id\":\"SN SMTP-Top20VLAN\",\"type\":\"visualization\",\"panelIndex\":3,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":13},{\"id\":\"SN SMTP-Top20VLANsOverTime\",\"type\":\"visualization\",\"panelIndex\":4,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":9},{\"id\":\"SN PerVLAN-ALERTEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":5,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":1},{\"id\":\"SN PerVLAN-DNSEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":17},{\"id\":\"SN PerVLAN-FILETransEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":17},{\"id\":\"SN PerVLAN-HTTPEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":8,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":5},{\"id\":\"SN PerVLAN-SMTPEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":9,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":5},{\"id\":\"SN PerVLAN-SSHEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":10,\"size_x\":6,\"size_y\":4,\"col\":1,\"row\":13},{\"id\":\"SN PerVLAN-TLSEventsOverTime\",\"type\":\"visualization\",\"panelIndex\":11,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":21}]",
+  "optionsJSON": "{\"darkTheme\":false}",
+  "uiStateJSON": "{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"P-3\":{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}}",
+  "version": 1,
+  "timeRestore": true,
+  "timeTo": "now",
+  "timeFrom": "now-24h",
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+  }
+}
